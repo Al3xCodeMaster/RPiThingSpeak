@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 #
-# Este script sube datos relativos a temperatura, humedad y velocidad del viento
+# Este script sube datos relativos a un seguidor en github
 # a un canal de ThingSpeak.
 #
-# Author: John Sanabria - john.sanabria@correounivalle.edu.co
-# Date: 2019-09-04
+# Date: 2019-09-17
 #
 apiKey="819A9924L8VZLCUW"
 

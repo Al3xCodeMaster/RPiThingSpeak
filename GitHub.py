@@ -1,6 +1,6 @@
 import json
 import requests
-req = requests.get('https://api.github.com/users/Al3xCodeMaster/followers')
+req = requests.get('https://api.github.com/users/Al3xCodeMaster/followers') # Usuario de prueba: Al3xCodeMaster
 req.encoding     # returns 'utf-8'
 req.status_code  # returns 200
 data = json.loads((req.content).decode('utf8'))
